@@ -1,3 +1,3 @@
-module hotuananh.com/hoursHelper
+module hotuananh.com/hourshelper
 
 go 1.23.2

@@ -1,4 +1,4 @@
-package hoursHelper
+package hourshelper
 
 import (
 	"fmt"
