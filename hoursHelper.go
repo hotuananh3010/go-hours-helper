@@ -8,12 +8,12 @@ import (
 // Hello returns a greeting for the named person.
 func Create(start string, end string, interval int, format string) []string {
 	var times []string
-	theStart, err := time.Parse(time.DateTime, start)
+	theStart, err := time.Parse(format, start)
 	if err != nil {
 		fmt.Println("Could not start time:", err)
 	}
 
-	theEnd, err := time.Parse(time.DateTime, end)
+	theEnd, err := time.Parse(format, end)
 	if err != nil {
 		fmt.Println("Could not end time:", err)
 	}
